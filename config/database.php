@@ -70,7 +70,7 @@ return [
             'port' => env('DB_PORT', '5435'),
             'database' => env('DB_DATABASE', 'Sanita_Test'),
             'username' => env('DB_USERNAME', 'postgres'),
-            'password' => env('DB_PASSWORD', 'Guinee224'),
+            'password' => env('DB_PASSWORD', 'Guinee@224$'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
