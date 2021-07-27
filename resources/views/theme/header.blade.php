@@ -10,20 +10,20 @@
 
     <title>Sanita </title>
     <!-- Bootstrap -->
-    <link href="{{ asset('theme/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{ asset('theme/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{ asset('theme/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
     <!-- iCheck -->
-    <link href="{{ asset('theme/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
     <!-- bootstrap-progressbar -->
-    <link href="{{ asset('theme/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
     <!-- JQVMap -->
-    <link href="{{ asset('theme/vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet"/>
+    <link href="{{ secure_asset('theme/vendors/jqvmap/dist/jqvmap.min.css') }}" rel="stylesheet">
     <!-- bootstrap-daterangepicker -->
-    <link href="{{ asset('theme/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/vendors/bootstrap-daterangepicker/daterangepicker.css') }}" rel="stylesheet">
     <!-- Custom Theme Style -->
-    <link href="{{ asset('theme/build/css/custom.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('theme/build/css/custom.min.css') }}" rel="stylesheet">
 </head>
 <body class="nav-md">
