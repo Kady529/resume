@@ -14,7 +14,7 @@ class CreateVoiriesTable extends Migration
     public function up()
     {
         Schema::create('voiries', function (Blueprint $table) {
-            $table->lot();
+            $table->integer('lot')->unsigned()->primary();
             $table->timestamps();
         });
     }
