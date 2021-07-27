@@ -14,7 +14,7 @@ class CreateOspecifiquesTable extends Migration
     public function up()
     {
         Schema::create('ospecifiques', function (Blueprint $table) {
-            $table->num_indicateur();
+            $table->integer('num_indicateur')->unsigned()->primary();
             $table->timestamps();
         });
     }
