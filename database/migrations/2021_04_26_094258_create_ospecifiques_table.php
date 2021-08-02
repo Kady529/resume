@@ -15,6 +15,13 @@ class CreateOspecifiquesTable extends Migration
     {
         Schema::create('ospecifiques', function (Blueprint $table) {
             $table->integer('num_indicateur')->unsigned()->primary();
+            $table->string("intitulé_indicateur",255)->nullable->change;
+            $table->integer("val_2019",11)->nullable->change;
+            $table->integer("val_2020",11)->nullable->change;
+            $table->integer("val_2021",11)->nullable->change;
+            $table->integer("val_2022",11)->nullable->change;
+            $table->string("val_cible",255)->nullable->change;
+            $table->string("unite",255)->nullable->change;
             $table->timestamps();
         });
     }

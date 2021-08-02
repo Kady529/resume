@@ -124,7 +124,6 @@
           <root url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
           <root url="file://$MODULE_DIR$/vendor/brick/math" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
-          <root url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
@@ -237,7 +236,6 @@
           <root url="file://$MODULE_DIR$/vendor/asm89/stack-cors" />
           <root url="file://$MODULE_DIR$/vendor/brick/math" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
-          <root url="file://$MODULE_DIR$/vendor/dnoegel/php-xdg-base-dir" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/lexer" />

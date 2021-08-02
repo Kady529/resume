@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="79441784">
+  <component name="DataSourceManagerImpl" format="xml" hash="3537183673">
     <data-source source="LOCAL" name="postgres@192.168.0.11" uuid="8b504010-a858-428a-9a07-45cea09f9981">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://192.168.0.11:5437/postgres</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - d260jt1502jp2c@ec2-52-86-25-51.compute-1.amazonaws.com" uuid="fce9d150-2562-43f9-8b8e-c7b87e44f0f9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-52-86-25-51.compute-1.amazonaws.com:5432/d260jt1502jp2c</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - sanita_dev@localhost" uuid="e9b997ca-c088-46a6-880e-7112e15e7a2a">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sanita_dev</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
       <libraries />
     </data-source>
   </component>
