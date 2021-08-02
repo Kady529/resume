@@ -10,9 +10,9 @@
 
     <title>Sanita </title>
     <!-- Bootstrap -->
-    <link href="{{ secure_asset('theme/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="theme/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{ secure_asset('theme/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="theme/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="{{ secure_asset('theme/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
     <!-- iCheck -->

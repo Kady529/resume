@@ -1713,14 +1713,14 @@
     </table>
     <table name="parcelle_ztts" schema="public" catalog="d260jt1502jp2c" type="TABLE">
       <column name="num" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="bailleur" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
-      <column name="type" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
-      <column name="nom" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
-      <column name="etat" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
-      <column name="etat_pr" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
-      <column name="surface" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="commune" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
-      <column name="quartier" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
+      <column name="bailleur" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
+      <column name="type" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
+      <column name="nom" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
+      <column name="etat" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
+      <column name="etat_pr" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
+      <column name="surface" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="commune" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
+      <column name="quartier" sqlType="varchar" precision="191" scale="0" nullable="true" jdbcType="12"/>
       <column name="created_at" sqlType="timestamp" precision="22" scale="0" nullable="true" jdbcType="93"/>
       <column name="updated_at" sqlType="timestamp" precision="22" scale="0" nullable="true" jdbcType="93"/>
       <primary-key name="parcelle_ztts_pkey" columns="num"/>
