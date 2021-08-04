@@ -14,10 +14,10 @@
                     <div class="tab-pane fade show active" id="conackry" role="tabpanel" aria-labelledby="conackry-tab">
                         <div class="shadow-sm p-2 mb-3 bg-white rounded">
                             <div class="panel-body">
-                                <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3><large>Indicateurs sanita de la ville de conakry pour l'anné 2020</large>
+                                <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3><large>Indicateurs sanita de la ville de conakry</large>
                             </div>
                         </div>
-                        <div class="row m-l-250" >
+                        <div class="row m-l-250 center-block" >
                             <div class="col-lg-2 col-sm-2 col-xs-2">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
@@ -132,7 +132,7 @@
                                             </div>
                                             <div class="w_center w_55">
                                                 <p class="text-center">{{ $nowdate }}</p>
-                                                <div class="progress">
+                                                <div class="progress center-block">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total}}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %

@@ -307,9 +307,8 @@ class HomeController extends Controller
             $data =\DB::table("sensibilisations")->select(DB::raw("sum(personnes) as Somme_personnes"),
                                                           DB::raw("sum(menage) as Somme_menages"),
                                                           DB::raw("to_char(date_sensib, 'Mon-YYYY') as new_date"))
-                                                        ->orderBy("date_sensib")
                                                         ->groupBy("new_date")
-                                                        ->distinct()
+                                                        ->orderby("date_sensib")
                                                         ->get();
             //dd($data);
             $reasons->addStringColumn('Mois')

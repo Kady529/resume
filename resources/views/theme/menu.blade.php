@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width" />
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,8 +76,8 @@
               <div class="menu_section">
                 <h3>Differents indicateurs</h3>
                 <ul class="nav side-menu">
-                  <li><a href="{{ Route('home')}}"><i class="fa fa-home"></i> Accueil </a>
-                    <li><a href="{{ Route('ztt')}}"><i class="fa fa-recycle"></i> Gestion des dechets </a>
+                  <li><a href="{{ Route('home')}}"><i class="glyphicon glyphicon-home"></i> Accueil </a>
+                    <li><a href="{{ Route('ztt')}}"><i class="glyphicon glyphicon-remove"></i> Gestion des dechets </a>
                     <li><a href=""><i class="fa fa-hand-grab-o"></i> Renforcement de Capacité </a>
                     <li><a href="{{ Route('voiries')}}"><i class="fa fa-resistance"></i> Voiries </a>
                   <li><a href="{{ Route('sensibilisation')}}"><i class="fa fa-users"></i> Sensibilisation </a>
