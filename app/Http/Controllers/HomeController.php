@@ -304,9 +304,9 @@ class HomeController extends Controller
             //deuxiemme graphique
             $reasons = \Lava::DataTable();
 
-            $data =\DB::table("sensibilisations")->select(DB::raw("sum(personnes) as type"),
-                                                          DB::raw('sum(menage) as types'),
-                                                          DB::raw("DATE_FORMAT(date_sensib, '%M-%Y') as new_date")                                                          )
+            $data =\DB::table("sensibilisations")->select(DB::raw("sum(personnes) as Somme_personnes"),
+                                                          DB::raw("sum(menage) as Somme_menages"),
+                                                          DB::raw("to_char(date_sensib, 'Mon-YYYY') as new_date"))
                                                         ->orderBy("date_sensib")
                                                         ->groupBy("new_date")
                                                         ->distinct()
@@ -317,7 +317,7 @@ class HomeController extends Controller
                 ->addNumberColumn('Menages Sensibilisés');
 
             foreach ($data as $key){
-                    $reasons -> addRow([$key->new_date, $key->type,$key->types]);
+                    $reasons -> addRow([$key->new_date, $key->Somme_personnes,$key->Somme_menages]);
 
             }
 

@@ -1732,8 +1732,8 @@
       <index name="password_resets_email_index" unique="false" columns="email"/>
     </table>
     <table name="sensibilisations" schema="public" catalog="d260jt1502jp2c" type="TABLE">
-      <column name="id" sqlType="bigserial" precision="19" scale="0" nullable="false" jdbcType="-5" def="bmV4dHZhbCgnc2Vuc2liaWxpc2F0aW9uc19pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
-      <column name="date" sqlType="date" precision="13" scale="0" nullable="false" jdbcType="91"/>
+      <column name="id" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="date_sensib" sqlType="date" precision="13" scale="0" nullable="false" jdbcType="91"/>
       <column name="ong" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
       <column name="type" sqlType="varchar" precision="191" scale="0" nullable="false" jdbcType="12"/>
       <column name="personnes" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
@@ -1742,7 +1742,40 @@
       <column name="updated_at" sqlType="timestamp" precision="22" scale="0" nullable="true" jdbcType="93"/>
       <primary-key name="sensibilisations_pkey" columns="id"/>
     </table>
-    <table name="sensibilisations_id_seq" schema="public" catalog="d260jt1502jp2c" type="SEQUENCE"/>
+    <table name="users" schema="public" catalog="d260jt1502jp2c" type="TABLE">
+      <column name="id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="varchar" precision="225" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="varchar" precision="225" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="varchar" precision="225" scale="0" nullable="false" jdbcType="12"/>
+      <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+      <column name="createad_at" sqlType="timestamp" precision="29" scale="6" nullable="false" jdbcType="93"/>
+    </table>
+    <table name="voiries" schema="public" catalog="d260jt1502jp2c" type="TABLE">
+      <column name="lot" sqlType="int2" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="prestataire" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="type" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="rue" sqlType="varchar" precision="50" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="commune" sqlType="varchar" precision="100" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="quartier" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="avancement" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <column name="evolution" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <column name="superficiequartier" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <column name="activites" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="dateMiseAjour" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
+      <column name="ChantierEcole" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="ouvriersapprenants" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="nbfemmes" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="himo" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="drainage" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <column name="pavage" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <column name="beton" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <column name="dalot" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="amenagement" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="provisoire" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="definitive" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12" def="TlVMTA=="/>
+      <column name="created_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
+      <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
+    </table>
     <procedure name="RI_FKey_cascade_del" schema="pg_catalog" catalog="d260jt1502jp2c" type="2" remarks="cmVmZXJlbnRpYWwgaW50ZWdyaXR5IE9OIERFTEVURSBDQVNDQURF">
       <prototype>
         <parameter name="returnValue" sqlType="trigger" precision="0" scale="0" nullable="true" jdbcType="1111" type="5" index="0"/>
