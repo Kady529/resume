@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\Schema;
 use Carbon\Carbon;
-//use Khill\Lavacharts\DataTables\DataFactory;
+use Khill\Lavacharts\DataTables\DataFactory;
 use App\Marche;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Support\Facades\Hash;

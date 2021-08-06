@@ -14,7 +14,14 @@
                     <div class="tab-pane fade show active" id="conackry" role="tabpanel" aria-labelledby="conackry-tab">
                         <div class="shadow-sm p-2 mb-3 bg-white rounded">
                             <div class="panel-body">
-                                <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3><large>Indicateurs sanita de la ville de conakry</large>
+                                <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3>
+                                <div class="btn-group">
+                                  <div class="dropdown-menu dropdown-menu-right">
+                                    <button class="dropdown-item" type="button">2020</button>
+                                    <button class="dropdown-item active" type="button">2021</button>
+                                    <button class="dropdown-item" type="button">2022</button>
+                                  </div>  
+                                </div>
                             </div>
                         </div>
                         <div class="row m-l-250 center-block" >
