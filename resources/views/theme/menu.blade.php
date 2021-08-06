@@ -80,7 +80,7 @@
                     <li><a href="{{ Route('ztt')}}"><i class="glyphicon glyphicon-refresh"></i> Gestion des dechets </a>
                     <li><a href=""><i class="glyphicon glyphicon-hand-grab-o"></i> Renforcement de Capacité </a>
                     <li><a href="{{ Route('voiries')}}"><i class="glyphicon glyphicon-resistance"></i> Voiries </a>
-                  <li><a href="{{ Route('sensibilisation')}}"><i class="glyphicon glyphicon-users"></i> Sensibilisation </a>
+                  <li><a href="{{ Route('sensibilisation')}}"><i class="glyphicon glyphicon0-users"></i> Sensibilisation </a>
                   </li>
                 </ul>
               </div>

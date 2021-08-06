@@ -37,7 +37,7 @@ body{
     }
 
     .card-box {
-        position: absolute;
+        position: relative;
         color: #fff;
         padding: 10px;
         margin: 20px;

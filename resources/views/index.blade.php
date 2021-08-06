@@ -15,12 +15,16 @@
                         <div class="shadow-sm p-2 mb-3 bg-white rounded">
                             <div class="panel-body">
                                 <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3>
-                                <div class="btn-group">
-                                  <div class="dropdown-menu dropdown-menu-right">
-                                    <button class="dropdown-item" type="button">2020</button>
-                                    <button class="dropdown-item active" type="button">2021</button>
-                                    <button class="dropdown-item" type="button">2022</button>
-                                  </div>  
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                        <li><button class="dropdown-item " type="button">2019</button></li>
+                                        <li><button class="dropdown-item active" type="button">2020</button></li>
+                                        <li><button class="dropdown-item" type="button">2021</button></li>
+                                        <li><button class="dropdown-item" type="button">2022</button></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -28,27 +32,25 @@
                             <div class="col-lg-2 col-sm-2 col-xs-2">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
-                                        <p> Déchets collectés Conakry   </p>
+                                        <p class="text-small"> Déchets collectés Conakry   </p>
                                         <h3> {{ $os1 }}  </h3>
-                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-home" aria-hidden="true"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
-                                        <p> Déchets collectés ZTT      </p>
+                                        <p class="text-sm-center"> Déchets collectés ZTT      </p>
                                         <h3> {{ $os2 }} % </h3>
-                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle" aria-hidden="true"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
@@ -56,12 +58,11 @@
                                     <div class="inner">
                                         <p> Bénéficiaires quartiers drainés</p>
                                         <h3> {{ $os3}} </h3>
-                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-user-plus" aria-hidden="true"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
@@ -69,12 +70,11 @@
                                     <div class="inner">
                                         <p> Pourcentage Quarties desenclavés</p>
                                         <h3> {{ $os4}} % </h3>
-                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-road"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
@@ -82,12 +82,11 @@
                                     <div class="inner">
                                         <p> Taux de pénétration Gestion Dechéts </p>
                                         <h3> {{ $os5}}  </h3>
-                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
                                 </div>
                             </div>
                         </div>
