@@ -77,10 +77,10 @@
                 <h3>Differents indicateurs</h3>
                 <ul class="nav side-menu">
                   <li><a href="{{ Route('home')}}"><i class="glyphicon glyphicon-home"></i> Accueil </a>
-                    <li><a href="{{ Route('ztt')}}"><i class="glyphicon glyphicon-remove"></i> Gestion des dechets </a>
-                    <li><a href=""><i class="fa fa-hand-grab-o"></i> Renforcement de Capacité </a>
-                    <li><a href="{{ Route('voiries')}}"><i class="fa fa-resistance"></i> Voiries </a>
-                  <li><a href="{{ Route('sensibilisation')}}"><i class="fa fa-users"></i> Sensibilisation </a>
+                    <li><a href="{{ Route('ztt')}}"><i class="glyphicon glyphicon-refresh"></i> Gestion des dechets </a>
+                    <li><a href=""><i class="glyphicon glyphicon-hand-grab-o"></i> Renforcement de Capacité </a>
+                    <li><a href="{{ Route('voiries')}}"><i class="glyphicon glyphicon-resistance"></i> Voiries </a>
+                  <li><a href="{{ Route('sensibilisation')}}"><i class="glyphicon glyphicon-users"></i> Sensibilisation </a>
                   </li>
                 </ul>
               </div>

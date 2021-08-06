@@ -22,7 +22,8 @@
                                 <div class="card-box bg-blue">
                                     <div class="inner">
                                         <p> Déchets collectés à Conakry </p>
-                                        <h3  style="font-size: 1vmax;"> {{ $os1 }} tonnes </h3>
+                                        <div class="count">{{ $os1 }} </div>
+                                        <span class="count_bottom"><i class="green"> 12000 </i> Prevu</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-home" aria-hidden="true"></i>
@@ -34,7 +35,7 @@
                                 <div class="card-box bg-green">
                                     <div class="inner">
                                         <p> Déchets collectés ZTT </p>
-                                        <h3  style="font-size: 1vmax;"> {{ $os2 }} % </h3>
+                                        <h3> {{ $os2 }} % </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle" aria-hidden="true"></i>
@@ -46,7 +47,7 @@
                                 <div class="card-box bg-orange">
                                     <div class="inner">
                                         <p> Bénéficiaires quartiers drainés</p>
-                                        <h3  style="font-size: 1vmax;"> {{ $os3}} </h3>
+                                        <h3> {{ $os3}} </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-user-plus" aria-hidden="true"></i>
@@ -58,7 +59,7 @@
                                 <div class="card-box bg-red">
                                     <div class="inner">
                                         <p> Quarties desenclavés</p>
-                                        <h3  style="font-size: 1vmax;"> {{ $os4}}  </h3>
+                                        <h3> {{ $os4}}  </h3>
 
                                     </div>
                                     <div class="icon">
@@ -71,7 +72,7 @@
                                 <div class="card-box bg-1">
                                     <div class="inner">
                                         <p> Taux de pénétration  Gesstion Dechéts </p>
-                                        <h3  style="font-size: 1vmax;"> {{ $os5}}  </h3>
+                                        <h3> {{ $os5}}  </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle"></i>
@@ -123,10 +124,10 @@
                                         <h1>Progression dans le temps du projet Sanita Villes propres</h1>
                                     </div>
                                     <div class="inline-block">
-                                        <div class="slider-container" style="width: 100%">
+                                        <div class="slider-container center-block" style="width: 800px">
                                             <input type="text" id="slider" class="slider" />
                                         </div>
-                                        <div class="widget_summary " style="width: 90%">
+                                        <div class="widget_summary center-block" style="width: 800px">
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>

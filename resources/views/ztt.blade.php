@@ -8,7 +8,7 @@
                 <h3 class="text-uppercase font-weight-bold ">Indicateurs Ztt</h3>
             </div>
         </div>
-        <div class="row m-l-250">
+        <div class="row center-block">
               <div class="col-md-2 col-sm-4">
                   <div class="card-box bg-blue">
                       <div class="inner">
@@ -52,7 +52,6 @@
                       <div class="inner">
                       <p> Carbone équivalent évité ( t )</p>
                           <h3> {{0}} </h3>
-
                       </div>
                       <div class="icon">
                           <i class="fa fa-smoked"></i>
