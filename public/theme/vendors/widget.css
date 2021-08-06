@@ -37,11 +37,14 @@ body{
     }
 
     .card-box {
-        position: relative;
+        position: absolute;
         color: #fff;
-        padding: 20px 10px 40px;
+        padding: 20px;
         margin: 20px 0px;
 
+    }
+    .card-box p{
+        font-size: 0.5em;
     }
     .card-box:hover {
         text-decoration: none;

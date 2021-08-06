@@ -21,9 +21,9 @@
                             <div class="col-lg-2 col-sm-2 col-xs-2">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
-                                        <p> Déchets collectés à Conakry </p>
-                                        <div class="count">{{ $os1 }} </div>
-                                        <span class="count_bottom"><i class="green"> 12000 </i> Prevu</span>
+                                        <p> Déchets collectés Conakry   </p>
+                                        <h3> {{ $os1 }}  </h3>
+                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-home" aria-hidden="true"></i>
@@ -34,8 +34,9 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
-                                        <p> Déchets collectés ZTT </p>
+                                        <p> Déchets collectés ZTT      </p>
                                         <h3> {{ $os2 }} % </h3>
+                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle" aria-hidden="true"></i>
@@ -48,6 +49,7 @@
                                     <div class="inner">
                                         <p> Bénéficiaires quartiers drainés</p>
                                         <h3> {{ $os3}} </h3>
+                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-user-plus" aria-hidden="true"></i>
@@ -58,9 +60,9 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-red">
                                     <div class="inner">
-                                        <p> Quarties desenclavés</p>
-                                        <h3> {{ $os4}}  </h3>
-
+                                        <p> Pourcentage Quarties desenclavés</p>
+                                        <h3> {{ $os4}} % </h3>
+                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-road"></i>
@@ -71,8 +73,9 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-1">
                                     <div class="inner">
-                                        <p> Taux de pénétration  Gesstion Dechéts </p>
+                                        <p> Taux de pénétration Gestion Dechéts </p>
                                         <h3> {{ $os5}}  </h3>
+                                        <span class="count_bottom"><i class="green"> 4% </i> From last Week</span>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle"></i>
@@ -133,7 +136,7 @@
                                             </div>
                                             <div class="w_center w_55">
                                                 <p class="text-center">{{ $nowdate }}</p>
-                                                <div class="progress center-block">
+                                                <div class="progress center-block " style="width: 800px">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total}}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %
