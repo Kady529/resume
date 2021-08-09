@@ -17,7 +17,7 @@
                                 <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-
+                                            Année
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                                         <li><button class="dropdown-item " type="button">2019</button></li>
@@ -136,15 +136,15 @@
                                         <div class="slider-container center-block" style="width: 800px">
                                             <input type="text" id="slider" class="slider" />
                                         </div>
-                                        <div class="widget_summary center-block" style="width: 800px">
+                                        <div class="widget_summary align-self-center">
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>
-                                            <div class="w_center w_55">
+                                            <div class="w_center w_55" style="width: 800px">
                                                 <p class="text-center">{{ $nowdate }}</p>
                                                 <div class="progress center-block " style="width: 800px">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
-                                                         aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total}}" style="width:{{ $pourcentage }}%">
+                                                         aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total }}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %
                                                     </div>
                                                 </div>
