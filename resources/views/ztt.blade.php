@@ -5,7 +5,7 @@
     <div class="" >
         <div class="shadow-sm p-2 mb-3 bg-white rounded">
             <div class="panel-body">
-                <h3 class="text-uppercase font-weight-bold ">Indicateurs Ztt</h3>
+                <h3 class="text-uppercase">Indicateurs Ztt</h3>
             </div>
         </div>
         <div class="row center-block">

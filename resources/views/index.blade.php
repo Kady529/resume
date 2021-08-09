@@ -28,8 +28,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row m-l-250 center-block" >
-                            <div class="col-lg-2 col-sm-2 col-xs-2">
+                        <div class="row center-block">
+                            <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
                                         <p class="text-small"> Déchets collectés Conakry   </p>
@@ -38,22 +38,24 @@
                                     <div class="icon">
                                         <i class="fa fa-home" aria-hidden="true"></i>
                                     </div>
-                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
+                                    <a href="#" class="card-box-footer"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-sm-4">
+
+                            <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
                                         <p class="text-sm-center"> Déchets collectés ZTT      </p>
                                         <h3> {{ $os2 }} % </h3>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-recycle" aria-hidden="true"></i>
+                                        <i class="fa fa-money" aria-hidden="true"></i>
                                     </div>
-                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
+                                    <a href="#" class="card-box-footer"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-sm-4">
+
+                            <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-orange">
                                     <div class="inner">
                                         <p> Bénéficiaires quartiers drainés</p>
@@ -62,19 +64,19 @@
                                     <div class="icon">
                                         <i class="fa fa-user-plus" aria-hidden="true"></i>
                                     </div>
-                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
+                                    <a href="#" class="card-box-footer"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-red">
                                     <div class="inner">
-                                        <p> Pourcentage Quarties desenclavés</p>
-                                        <h3> {{ $os4}} % </h3>
+                                        <p class="text-small"> Déchets collectés Conakry   </p>
+                                        <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-road"></i>
+                                        <i class="fa fa-smoked"></i>
                                     </div>
-                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
+                                    <a href="#" class="card-box-footer"></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
@@ -84,9 +86,9 @@
                                         <h3> {{ $os5}}  </h3>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-recycle"></i>
+                                        <i class="fa fa-users"></i>
                                     </div>
-                                    <span class="card-box-footer"><i class="green"> 1200 </i> Prévu</span>
+                                    <a href="#" class="card-box-footer"></a>
                                 </div>
                             </div>
                         </div>
