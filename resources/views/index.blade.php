@@ -14,18 +14,14 @@
                     <div class="tab-pane fade show active" id="conackry" role="tabpanel" aria-labelledby="conackry-tab">
                         <div class="shadow-sm p-2 mb-3 bg-white rounded">
                             <div class="panel-body">
-                                <h3 class="text-uppercase font-weight-bold ">Tableau de bord </h3>
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Année
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                        <li><button class="dropdown-item " type="button">2019</button></li>
-                                        <li><button class="dropdown-item active" type="button">2020</button></li>
-                                        <li><button class="dropdown-item" type="button">2021</button></li>
-                                        <li><button class="dropdown-item" type="button">2022</button></li>
-                                    </ul>
-                                </div>
+                                <h3 class="text-uppercase text-sm-left">Tableau de bord </h3>
+                                <select class="btn btn-secondary form-select-sm pull-right" aria-label=".form-select-sm example">
+                                    <option value="1">2019</option>
+                                    <option value="2">2020</option>
+                                    <option selected>2021</option>
+                                    <option value="3">2022</option>
+                                    <option value="3">2023</option>
+                                </select>
                             </div>
                         </div>
                         <div class="row center-block">
@@ -135,16 +131,16 @@
                                         <h1>Progression dans le temps du projet Sanita Villes propres</h1>
                                     </div>
                                     <div class="inline-block">
-                                        <div class="slider-container center-block" style="width: 800px">
+                                        <div class="slider-container center-block" style="">
                                             <input type="text" id="slider" class="slider" />
                                         </div>
                                         <div class="widget_summary align-self-center">
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>
-                                            <div class="w_center w_55" style="width: 800px">
+                                            <div class="w_center" style="">
                                                 <p class="text-center">{{ $nowdate }}</p>
-                                                <div class="progress center-block " style="width: 800px">
+                                                <div class="progress center-block " style="">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total }}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %

@@ -323,7 +323,7 @@ class HomeController extends Controller
                 'title' => 'Sensibilisation par mois',
                 'titleTextStyle' => [
                     'color'    => '#eb6b2c',
-                    'fontSize' => 25
+                    'fontSize' => 20
                 ],
                 'legend' => [
                     'position' => 'in'

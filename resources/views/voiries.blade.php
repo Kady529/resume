@@ -8,72 +8,59 @@
             </div>
         </div>
           <!-- top tiles -->
-          <div class="row m-l-250">
+        <div class="row center-block">
+            <div class="col-md-2 col-sm-4">
+                <div class="card-box bg-blue">
+                    <div class="inner">
+                        <p>Route ( KM )</p>
+                        <h3> {{ ($beton + $pavage)* 0.001 }}</h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="card-box-footer"></a>
+                </div>
+            </div>
 
-              <div class="col-lg-2 col-sm-4">
-                  <div class="card-box bg-red">
-                      <div class="inner">
-                          <p>Route</p>
-                          <h3> {{ ($beton + $pavage)* 0.001 }} km</h3>
+            <div class="col-md-2 col-sm-4">
+                <div class="card-box bg-green">
+                    <div class="inner">
+                        <p> Drainage (ml) </p>
+                        <h3> {{ $drainage}}  </h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="card-box-footer"></a>
+                </div>
+            </div>
 
-                      </div>
-                      <div class="icon">
-                          <i class="fa fa-road"></i>
-                      </div>
-                      <a href="#" class="card-box-footer"></a>
-                  </div>
-              </div>
+            <div class="col-md-2 col-sm-4">
+                <div class="card-box bg-orange">
+                    <div class="inner">
+                        <p> Systeme opérationnel</p>
+                        <h3> {{ 0  }} % </h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                    </div>
+                    <a href="#" class="card-box-footer"></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+                <div class="card-box bg-red">
+                    <div class="inner">
+                        <p> Ouvriers apprenants</p>
+                        <h3>{{ $apprenants[0]->t}} </h3>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-smoked"></i>
+                    </div>
+                    <a href="#" class="card-box-footer"></a>
+                </div>
+            </div>
 
-              <div class="col-lg-2 col-sm-4">
-                  <div class="card-box bg-orange">
-                      <div class="inner">
-                          <p> Drainage (ml) </p>
-                          <h3> {{ $drainage}}  </h3>
-                      </div>
-                      <div class="icon">
-                          <i class="fa fa-user-plus" aria-hidden="true"></i>
-                      </div>
-                      <a href="#" class="card-box-footer"></a>
-                  </div>
-              </div>
-              <div class="col-lg-2 col-sm-4">
-                  <div class="card-box bg-blue">
-                      <div class="inner">
-                          <p> Systeme opérationnel</p>
-                          <h3> {{ 0  }} % </h3>
-
-                      </div>
-                      <div class="icon">
-                          <i class="fa fa-home" aria-hidden="true"></i>
-                      </div>
-                      <a href="#" class="card-box-footer"></a>
-                  </div>
-              </div>
-              <div class="col-lg-2 col-sm-4">
-                  <div class="card-box bg-green">
-                      <div class="inner">
-                          <p> Maintenance préventive </p>
-                          <h3> {{0}} % </h3>
-                      </div>
-                      <div class="icon">
-                          <i class="fa fa-money" aria-hidden="true"></i>
-                      </div>
-                      <a href="#" class="card-box-footer"></a>
-                  </div>
-              </div>
-              <div class="col-lg-2 col-sm-4">
-                  <div class="card-box bg-blue">
-                      <div class="inner">
-                          <p> Ouvriers apprenants</p>
-                          <h3>{{ $apprenants[0]->t}} </h3>
-                      </div>
-                      <div class="icon">
-                          <i class="fa fa-user-plus" aria-hidden="true"></i>
-                      </div>
-                      <a href="#" class="card-box-footer"></a>
-                  </div>
-              </div>
-          </div>
+        </div>
 
           <!-- /top tiles -->
           <div class="row">
