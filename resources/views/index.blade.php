@@ -41,7 +41,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
-                                        <p class="text-sm-center"> Déchets collectés ZTT      </p>
+                                        <p class="text-small"> Déchets collectés ZTT      </p>
                                         <h3> {{ $os2 }} % </h3>
                                     </div>
                                     <div class="icon">
@@ -131,10 +131,10 @@
                                         <h1>Progression dans le temps du projet Sanita Villes propres</h1>
                                     </div>
                                     <div class="inline-block">
-                                        <div class="slider-container center-block" style="">
+                                        <div class="slider-container w-75 mt-2 p-2" style="">
                                             <input type="text" id="slider" class="slider" />
                                         </div>
-                                        <div class="widget_summary align-self-center">
+                                        <div class="widget_summary w-75 mt-2 p-2">
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>

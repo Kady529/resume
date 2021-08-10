@@ -39,34 +39,35 @@ body{
     .card-box {
         position: relative;
         color: #fff;
-        padding: 10px;
-        margin: 15px;
+        padding: 7px;
+        margin: 8px;
     }
     .inner p{
-        font-size: 15px;
+        font-size: 17px;
+        padding-bottom: 5px;
     }
     .card-box:hover {
         text-decoration: none;
         color: #f1f1f1;
     }
     .card-box:hover .icon i {
-        font-size: 80px;
+        font-size: 70px;
         transition: 1s;
         -webkit-transition: 1s;
     }
     .card-box .inner {
-        padding: 5px 10px 0 10px;
+        padding: 5px 10px 5px 10px;
     }
     .card-box h3 {
         font-size: 15px;
         font-weight: bold;
         margin: 0 0 8px 0;
         white-space: nowrap;
-        padding: 0;
-        text-align: left;
+        padding-bottom: 5px;
+        text-align: center;
     }
     .card-box p {
-        font-size: 10px;
+        font-size: 13px;
     }
     .card-box .icon {
         position: absolute;
@@ -74,7 +75,7 @@ body{
         bottom: 5px;
         right: 5px;
         z-index: 0;
-        font-size: 40px;
+        font-size: 30px;
         color: rgba(0, 0, 0, 0.15);
     }
     .card-box .card-box-footer {
