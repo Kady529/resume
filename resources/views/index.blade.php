@@ -131,7 +131,7 @@
                                         <h1>Progression dans le temps du projet Sanita Villes propres</h1>
                                     </div>
                                     <div class="inline-block">
-                                        <div class="slider-container w-75 mt-2 p-2" style="">
+                                        <div class="slider-container justify-content-center align-items-center" style="width: 800px">
                                             <input type="text" id="slider" class="slider" />
                                         </div>
                                         <div class="widget_summary ">
@@ -140,7 +140,7 @@
                                             </div>
                                             <div class="w_center ">
                                                 <p class="text-center">{{ $nowdate }}</p>
-                                                <div class="progress w-75 mt-2 p-2">
+                                                <div class="progress justify-content-center align-items-center" style="width: 800px">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total }}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %
