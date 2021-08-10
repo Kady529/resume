@@ -28,7 +28,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
-                                        <p class="text-small"> Déchets collectés Conakry   </p>
+                                        <p class="count-title"> Déchets collectés Conakry   </p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
@@ -54,7 +54,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-orange">
                                     <div class="inner">
-                                        <p> Bénéficiaires quartiers drainés</p>
+                                        <p> Bénéficiaires drainage</p>
                                         <h3> {{ $os3}} </h3>
                                     </div>
                                     <div class="icon">
@@ -66,7 +66,7 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-red">
                                     <div class="inner">
-                                        <p class="text-small"> Déchets collectés Conakry   </p>
+                                        <p class="text-small"> Déchets collectés   </p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
@@ -78,13 +78,13 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-1">
                                     <div class="inner">
-                                        <p> Taux de pénétration Gestion Dechéts </p>
+                                        <p class="count-title"> Taux de pénétration </p>
                                         <h3> {{ $os5}}  </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-users"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <a href="#" class="card-box-footer"> </a>
                                 </div>
                             </div>
                         </div>
@@ -134,13 +134,13 @@
                                         <div class="slider-container w-75 mt-2 p-2" style="">
                                             <input type="text" id="slider" class="slider" />
                                         </div>
-                                        <div class="widget_summary w-75 mt-2 p-2">
+                                        <div class="widget_summary ">
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>
-                                            <div class="w_center" style="">
+                                            <div class="w_center ">
                                                 <p class="text-center">{{ $nowdate }}</p>
-                                                <div class="progress center-block " style="">
+                                                <div class="progress w-75 mt-2 p-2">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total }}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %

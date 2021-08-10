@@ -40,7 +40,9 @@ body{
         position: relative;
         color: #fff;
         padding: 7px;
-        margin: 8px;
+        margin: 2px;
+        width: 300px;
+        height: 200px;
     }
     .inner p{
         font-size: 17px;
