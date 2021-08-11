@@ -14,7 +14,7 @@
                     <div class="tab-pane fade show active" id="conackry" role="tabpanel" aria-labelledby="conackry-tab">
                         <div class="shadow-sm p-2 mb-3 bg-white rounded">
                             <div class="panel-body">
-                                <h3 class="text-uppercase text-sm-left">Tableau de bord </h3>
+                                <h1 class="text-uppercase text-sm-left">Tableau de bord </h1>
                                 <select class="btn btn-secondary form-select-sm pull-right" aria-label=".form-select-sm example">
                                     <option value="1">2019</option>
                                     <option value="2">2020</option>
@@ -28,20 +28,20 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
-                                        <p class="count-title"> Déchets collectés Conakry   </p>
+                                        <p class="count-title text-left"> Déchets collectés </p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-home" aria-hidden="true"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <a href="#" class="card-box-footer">Prévu <span class="text-success"></span></a>
                                 </div>
                             </div>
 
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
-                                        <p class="text-small"> Déchets collectés ZTT      </p>
+                                        <p class="count-title text-left"> Déchets collectés ZTT      </p>
                                         <h3> {{ $os2 }} % </h3>
                                     </div>
                                     <div class="icon">
@@ -54,7 +54,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-orange">
                                     <div class="inner">
-                                        <p> Bénéficiaires drainage</p>
+                                        <p class="count-title text-left"> Bénéficiaires drainage</p>
                                         <h3> {{ $os3}} </h3>
                                     </div>
                                     <div class="icon">
@@ -66,11 +66,11 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-red">
                                     <div class="inner">
-                                        <p class="text-small"> Déchets collectés   </p>
+                                        <p class="count-title text-left"> Déchets collectés   </p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
-                                        <i class="fa fa-smoked"></i>
+                                        <i class="fa fa-recycle"></i>
                                     </div>
                                     <a href="#" class="card-box-footer"></a>
                                 </div>
@@ -78,7 +78,7 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-1">
                                     <div class="inner">
-                                        <p class="count-title"> Taux de pénétration </p>
+                                        <p class="count-title text-left"> Taux de pénétration </p>
                                         <h3> {{ $os5}}  </h3>
                                     </div>
                                     <div class="icon">
@@ -138,9 +138,9 @@
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>
-                                            <div class="w_center ">
+                                            <div class="w_center justify-content-center align-items-center">
                                                 <p class="text-center">{{ $nowdate }}</p>
-                                                <div class="progress justify-content-center align-items-center" style="width: 800px">
+                                                <div class="progress " style="width: 800px">
                                                     <div class="progress-bar progress-bar-striped active" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total }}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %
@@ -160,7 +160,7 @@
                             <div class="col-md-12 col-sm-12  ">
                                 <div class="x_panel">
                                     <div class="x_title">
-                                        <h1>Informations Générales</h1>
+                                        <h4 class="font-weight-normal font-italic">Informations Générales</h4>
                                     </div>
                                     <div class="x_content">
                                         <div class="row text-center">
@@ -219,7 +219,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-sm-12  ">
                                     <div class="x_title panel-success">
-                                        <h1>Liste des objectifs spécifiques</h1>
+                                        <h4 class="font-weight-normal font-italic">Liste des objectifs spécifiques</h4>
                                     </div>
                                     <div class="x_content">
 
