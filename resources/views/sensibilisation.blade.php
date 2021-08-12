@@ -5,6 +5,13 @@
             <div class="shadow-sm p-2 mb-3 bg-white rounded">
                 <div class="panel-body">
                     <h3 class="text-uppercase font-weight-bold ">Indicateurs Sensibilisations</h3>
+                    <select class="btn btn-secondary form-select-sm pull-right" aria-label=".form-select-sm example">
+                        <option value="1">2019</option>
+                        <option value="2">2020</option>
+                        <option selected>2021</option>
+                        <option value="3">2022</option>
+                        <option value="3">2023</option>
+                    </select>
                 </div>
             </div>
         <!-- top tiles -->

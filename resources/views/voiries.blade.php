@@ -4,7 +4,14 @@
     <div class="container" style="display: inline-block;" >
         <div class="shadow-sm p-2 mb-3 bg-white rounded">
             <div class="panel-body">
-                <h3 class="text-uppercase font-weight-bold ">Indicateurs Voiries</h3>
+                <h1 class="text-uppercase text-sm-left">Indicateurs Voiries</h1>
+                <select class="btn btn-secondary form-select-sm pull-right" aria-label=".form-select-sm example">
+                    <option value="1">2019</option>
+                    <option value="2">2020</option>
+                    <option selected>2021</option>
+                    <option value="3">2022</option>
+                    <option value="3">2023</option>
+                </select>
             </div>
         </div>
           <!-- top tiles -->
@@ -16,7 +23,7 @@
                         <h3> {{ ($beton + $pavage)* 0.001 }}</h3>
                     </div>
                     <div class="icon">
-                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <i class="glyphicon glyphicon-road" aria-hidden="true"></i>
                     </div>
                     <a href="#" class="card-box-footer"></a>
                 </div>
@@ -29,7 +36,7 @@
                         <h3> {{ $drainage}}  </h3>
                     </div>
                     <div class="icon">
-                        <i class="fa fa-money" aria-hidden="true"></i>
+                        <i class="glyphicon glyphicon-resize-full" aria-hidden="true"></i>
                     </div>
                     <a href="#" class="card-box-footer"></a>
                 </div>
@@ -42,7 +49,7 @@
                         <h3> {{ 0  }} % </h3>
                     </div>
                     <div class="icon">
-                        <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        <i class="glyphicon glyphicon-random" aria-hidden="true"></i>
                     </div>
                     <a href="#" class="card-box-footer"></a>
                 </div>
@@ -54,14 +61,12 @@
                         <h3>{{ $apprenants[0]->t}} </h3>
                     </div>
                     <div class="icon">
-                        <i class="fa fa-smoked"></i>
+                        <i class="glyphicon glyphicon-users"></i>
                     </div>
                     <a href="#" class="card-box-footer"></a>
                 </div>
             </div>
-
         </div>
-
           <!-- /top tiles -->
           <div class="row">
             <div class="container">

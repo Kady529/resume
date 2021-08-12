@@ -24,6 +24,10 @@
     margin-bottom: 0;
     text-align: center;
 }
+.count-top{
+    position: fixed;
+    top:0px;
+}
 
 .fa-2x {
     margin: 0 auto;
@@ -84,7 +88,7 @@ body{
         left: 0px;
         bottom: 0px;
         text-align: center;
-        padding-top: 9px;
+        margin-top: 9px;
         color: rgba(255, 255, 255, 0.8);
         background: rgba(0, 0, 0, 0.1);
         width: 100%;

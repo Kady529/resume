@@ -170,8 +170,8 @@ class HomeController extends Controller
                         'title' => 'Avancement de la construction des ZTT ',
                         'titleTextStyle' => [
                             'color'    => '#eb6b2c',
-                            'fontSize' => 25,
-                            'font-size' => 'serif'
+                            'fontSize' => 20,
+
                         ],
                         'legend' => [
                             'position' => 'in'
@@ -190,7 +190,7 @@ class HomeController extends Controller
                         'title' => 'Statut des infrastructures',
                         'titleTextStyle' => [
                             'color'    => '#eb6b2c',
-                            'fontSize' => 25
+                            'fontSize' => 20
                         ],
                         'legend' => [
                             'position' => 'in'
@@ -219,7 +219,7 @@ class HomeController extends Controller
                         'title'  => 'Nombre de ZTT par commune',
                         'titleTextStyle' => [
                             'color'    => '#eb6b2c',
-                            'fontSize' => 25
+                            'fontSize' => 20
                         ],
                         'is3D'   => true,
                         'slices' => [
@@ -241,7 +241,7 @@ class HomeController extends Controller
                             'title'  => 'ZTT par bailleur',
                             'titleTextStyle' => [
                                 'color'    => '#eb6b2c',
-                                'fontSize' => 25
+                                'fontSize' => 20
                             ],
                             'is3D'   => true,
                             'slices' => [
@@ -277,7 +277,7 @@ class HomeController extends Controller
 
 
             $votes = \Lava::DataTable();
-              $votes->addStringColumn('Food Pol     l')
+              $votes->addStringColumn('Food Poll')
                     ->addNumberColumn('Type')
                     ->addRow(['Porte à porte', $porte])
                     ->addRow(['Masse',  $masse])
@@ -288,7 +288,7 @@ class HomeController extends Controller
                             'title'  => 'Type de sensibilisation',
                             'titleTextStyle' => [
                                 'color'    => '#eb6b2c',
-                                'fontSize' => 25
+                                'fontSize' => 20
                             ],
                             'is3D'   => true,
                             'slices' => [
@@ -375,7 +375,7 @@ class HomeController extends Controller
                     'title'  => 'Nombre de projet par commune',
                     'titleTextStyle' => [
                     'color'    => '#eb6b2c',
-                    'fontSize' => 25
+                    'fontSize' => 20
                     ],
                     ]);
 
@@ -393,7 +393,7 @@ class HomeController extends Controller
                                     'title' => 'Nombre d\'ouvriers apprenants',
                                     'titleTextStyle' => [
                                         'color'    => 'red',
-                                        'fontSize' => 25
+                                        'fontSize' => 20
                                     ],
                                     'legend' => [
                                         'position' => 'in'
@@ -416,23 +416,4 @@ class HomeController extends Controller
         return view('login');
     }
 
-    public function traitement(Request $request)
-    {
-
-        $credentials = [
-            'email' => $request['email'],
-            'password' => md5($request['password']),
-        ];
-
-         $result = User::where([
-             'email' => $request->email,
-             'password' => md5($request->password)
-         ])->first();
-         //dd($result);
-        if($result){
-            dd(Auth::id());
-        }else{
-            dd($credentials);
-        }
-    }
 }
