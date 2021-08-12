@@ -28,7 +28,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-blue">
                                     <div class="inner">
-                                        <p class="count-title text-left"> Déchets collectés </p>
+                                        <p class="align-text-top text-left"> Déchets collectés </p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
@@ -41,7 +41,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
-                                        <p class="count-title text-left"> Déchets collectés ZTT      </p>
+                                        <p class="align-text-top text-left"> Déchets collectés ZTT      </p>
                                         <h3> {{ $os2 }} % </h3>
                                     </div>
                                     <div class="icon">
@@ -54,7 +54,7 @@
                             <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-orange">
                                     <div class="inner">
-                                        <p class="count-title text-left"> Bénéficiaires drainage</p>
+                                        <p class="align-text-top text-left"> Bénéficiaires drainage</p>
                                         <h3> {{ $os3}} </h3>
                                     </div>
                                     <div class="icon">
@@ -66,7 +66,7 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-red">
                                     <div class="inner">
-                                        <p class="count-title text-left"> Déchets collectés   </p>
+                                        <p class="align-text-top text-left"> Déchets collectés   </p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
@@ -78,7 +78,7 @@
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-1">
                                     <div class="inner">
-                                        <p class="count-title text-left"> Taux de pénétration </p>
+                                        <p class="align-text-top text-left"> Taux de pénétration </p>
                                         <h3> {{ $os5}}  </h3>
                                     </div>
                                     <div class="icon">
@@ -128,7 +128,7 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="x_panel">
                                     <div class="x_title">
-                                        <h2 class="font-weight-normal font-italic">Progression dans le temps du projet Sanita Villes propres</h2>
+                                        <p class="font-weight-normal font-italic h3">Progression dans le temps du projet Sanita Villes propres</p>
                                     </div>
                                     <div class="inline-block">
                                         <div class="slider-container justify-content-center align-items-center" style="width: 800px">
@@ -160,21 +160,21 @@
                             <div class="col-md-12 col-sm-12  ">
                                 <div class="x_panel">
                                     <div class="x_title">
-                                        <h2 class="font-weight-normal font-italic">Informations Générales</h2>
+                                        <p class="font-weight-normal font-italic h3">Informations Générales</p>
                                     </div>
                                     <div class="x_content">
                                         <div class="row text-center">
                                             <div class="col-md-6">
                                                 <div class="count">
                                                     <i class="fa glyphicon glyphicon-eur fa-2x"></i>
-                                                    <h2 class="timer count-top count-number" data-to="35" data-speed="1500">35</h2>
+                                                    <h2 class="timer count-title count-number" data-to="35" data-speed="1500">35</h2>
                                                     <p class="count-text ">Budget Global</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="count">
                                                     <i class="fa fa-users fa-2x"></i>
-                                                    <h2 class="timer count-top count-number" data-to="157" data-speed="1500">157</h2>
+                                                    <h2 class="timer count-title count-number" data-to="157" data-speed="1500">157</h2>
                                                     <p class="count-text ">Equipe Sanita</p>
                                                 </div>
                                             </div>
@@ -185,14 +185,14 @@
                                             <div class="col">
                                                 <div class="counter">
                                                     <i class="fa fa-home fa-2x"></i>
-                                                    <h2 class="timer count-top count-number" data-to="35" data-speed="1500">35</h2>
+                                                    <h2 class="timer count-title count-number" data-to="35" data-speed="1500">35</h2>
                                                     <p class="count-text ">ZTT</p>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="counter">
                                                     <i class="fa fa-building fa-2x"></i>
-                                                    <h2 class="timer count-top count-number" data-to="2" data-speed="1500">2</h2>
+                                                    <h2 class="timer count-title count-number" data-to="2" data-speed="1500">2</h2>
                                                     <p class="count-text">Villes</p>
                                                 </div>
                                             </div>
@@ -206,7 +206,7 @@
                                             <div class="col">
                                                 <div class="counter">
                                                     <i class="fa fa-users fa-2x"></i>
-                                                    <h2 class="timer count-top count-number" data-to="250" data-speed="1500">250</h2>
+                                                    <h2 class="timer count-title count-number" data-to="250" data-speed="1500">250</h2>
                                                     <p class="count-text ">Habitants Bénéficiaires</p>
                                                 </div>
                                             </div>
@@ -219,7 +219,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-sm-12  ">
                                     <div class="x_title panel-success">
-                                        <h2 class="font-weight-normal font-italic">Liste des objectifs spécifiques</h2>
+                                        <p class="font-weight-normal font-italic h3">Liste des objectifs spécifiques</p>
                                     </div>
                                     <div class="x_content">
 
