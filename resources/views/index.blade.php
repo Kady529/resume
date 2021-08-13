@@ -26,28 +26,15 @@
                         </div>
                         <div class="row center-block">
                             <div class="col-md-2 col-sm-4">
-                                <div class="card-box bg-blue">
-                                    <div class="inner">
-                                        <p class="align-text-top text-left"> Déchets collectés </p>
-                                        <h3> {{ $os1 }}  </h3>
-                                    </div>
-                                    <div class="icon">
-                                        <i class="fa fa-home" aria-hidden="true"></i>
-                                    </div>
-                                    <a href="#" class="card-box-footer">Prévu <span class="text-success"></span></a>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-4">
                                 <div class="card-box bg-green">
                                     <div class="inner">
-                                        <p class="align-text-top text-left"> Déchets collectés ZTT      </p>
+                                        <p class="align-text-top text-left"> Déchets collectés ZTT  </p>
                                         <h3> {{ $os2 }} % </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-money" aria-hidden="true"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <a href="#" class="card-box-footer font-italic">Cible <span class="text-success"> </span></a>
                                 </div>
                             </div>
 
@@ -60,19 +47,19 @@
                                     <div class="icon">
                                         <i class="fa fa-user-plus" aria-hidden="true"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <a href="#" class="card-box-footer font-italic">Cible <span class="text-success"> </span></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
                                 <div class="card-box bg-red">
                                     <div class="inner">
-                                        <p class="align-text-top text-left"> Déchets collectés   </p>
+                                        <p class="align-text-top text-left"> Bénéfiaires désenclavage</p>
                                         <h3> {{ $os1 }}  </h3>
                                     </div>
                                     <div class="icon">
                                         <i class="fa fa-recycle"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"></a>
+                                    <a href="#" class="card-box-footer font-italic">Cible <span class="text-success"> </span></a>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-sm-4">
@@ -84,7 +71,7 @@
                                     <div class="icon">
                                         <i class="fa fa-users"></i>
                                     </div>
-                                    <a href="#" class="card-box-footer"> </a>
+                                    <<a href="#" class="card-box-footer font-italic">Cible <span class="text-success"> </span></a>
                                 </div>
                             </div>
                         </div>
@@ -166,14 +153,14 @@
                                         <div class="row text-center">
                                             <div class="col-md-6">
                                                 <div class="count">
-                                                    <i class="fa glyphicon glyphicon-eur fa-2x"></i>
+                                                    <i class="glyphicon glyphicon-eur fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="35" data-speed="1500">35</h2>
                                                     <p class="count-text ">Budget Global</p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="count">
-                                                    <i class="fa fa-users fa-2x"></i>
+                                                    <i class="glyphicon glyphicon-users fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="157" data-speed="1500">157</h2>
                                                     <p class="count-text ">Equipe Sanita</p>
                                                 </div>
@@ -184,28 +171,28 @@
                                         <div class="row text-center">
                                             <div class="col">
                                                 <div class="counter">
-                                                    <i class="fa fa-home fa-2x"></i>
+                                                    <i class="glyphicon glyphicon-home fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="35" data-speed="1500">35</h2>
                                                     <p class="count-text ">ZTT</p>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="counter">
-                                                    <i class="fa fa-building fa-2x"></i>
+                                                    <i class="glyphicon glyphicon-building fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="2" data-speed="1500">2</h2>
                                                     <p class="count-text">Villes</p>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="counter">
-                                                    <i class="fa fa-road fa-2x"></i>
+                                                    <i class="glyphicon glyphicon-road fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="5" data-speed="1500">5</h2>
                                                     <p class="count-text ">Communes</p>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="counter">
-                                                    <i class="fa fa-users fa-2x"></i>
+                                                    <i class="glyphicon glyphicon-users fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="250" data-speed="1500">250</h2>
                                                     <p class="count-text ">Habitants Bénéficiaires</p>
                                                 </div>

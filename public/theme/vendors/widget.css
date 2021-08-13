@@ -10,17 +10,17 @@
 }
 
 .count-title {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 6px;
     margin-bottom: 0;
     text-align: center;
 }
 
 .count-text {
-    font-size: 23px;
+    font-size: 19px;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 6px;
     margin-bottom: 0;
     text-align: center;
 }
