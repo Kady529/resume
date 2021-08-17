@@ -39,6 +39,7 @@
     <link href="{{ secure_asset('theme/vendors/widget.css')}}" rel="stylesheet">
     <link href="{{ secure_asset('theme/vendors/theme.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{ secure_asset('theme/vendors/rSlider.min.css')}}">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
 </head>
@@ -78,9 +79,9 @@
                 <ul class="nav side-menu">
                   <li><a href="{{ Route('home')}}"><i class="glyphicon glyphicon-home"></i> Accueil </a>
                     <li><a href="{{ Route('ztt')}}"><i class="glyphicon glyphicon-refresh"></i> Gestion des dechets </a>
-                    <li><a href=""><i class="glyphicon glyphicon-hand-grab-o"></i> Renforcement de Capacité </a>
-                    <li><a href="{{ Route('voiries')}}"><i class="glyphicon glyphicon-resistance"></i> Voiries </a>
-                  <li><a href="{{ Route('sensibilisation')}}"><i class="glyphicon glyphicon0-users"></i> Sensibilisation </a>
+                    <li><a href=""><i class="glyphicon glyphicon-tasks"></i> Renforcement de Capacité </a>
+                    <li><a href="{{ Route('voiries')}}"><i class="glyphicon glyphicon-random"></i> Voiries </a>
+                  <li><a href="{{ Route('sensibilisation')}}"><i class="glyphicon glyphicon-tower"></i> Sensibilisation </a>
                   </li>
                 </ul>
               </div>
@@ -108,7 +109,7 @@
         <div class="top_nav">
           <div class="nav_menu">
               <div class="nav toggle">
-                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                <a id="menu_toggle"><i class="glyphicon glyphicon-align-justify"></i></a>
               </div>
               <nav class="nav navbar-nav">
               <ul class=" navbar-right">

@@ -71,7 +71,7 @@
                                     <div class="icon">
                                         <i class="fa fa-users"></i>
                                     </div>
-                                    <<a href="#" class="card-box-footer font-italic">Cible <span class="text-success"> </span></a>
+                                    <a href="#" class="card-box-footer font-italic">Cible <span class="text-success"> </span></a>
                                 </div>
                             </div>
                         </div>
