@@ -160,7 +160,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="count">
-                                                    <i class="glyphicon glyphicon-users fa-2x"></i>
+                                                    <i class="fas fa-users fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="157" data-speed="1500">157</h2>
                                                     <p class="count-text ">Equipe Sanita</p>
                                                 </div>
@@ -178,7 +178,7 @@
                                             </div>
                                             <div class="col">
                                                 <div class="counter">
-                                                    <i class="glyphicon glyphicon-building fa-2x"></i>
+                                                    <i class="fas fa-building fa-2x"></i>
                                                     <h2 class="timer count-title count-number" data-to="2" data-speed="1500">2</h2>
                                                     <p class="count-text">Villes</p>
                                                 </div>

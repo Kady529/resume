@@ -274,8 +274,6 @@ class HomeController extends Controller
 
             $lava = new Lavacharts;
 
-
-
             $votes = \Lava::DataTable();
               $votes->addStringColumn('Food Poll')
                     ->addNumberColumn('Type')
@@ -307,15 +305,15 @@ class HomeController extends Controller
             $data =\DB::table("sensibilisations")->select(DB::raw("sum(personnes) as Somme_personnes"),
                                                           DB::raw("sum(menage) as Somme_menages"),
                                                           DB::raw("to_char(date_sensib, 'Mon-YYYY') as new_date"))
-                                                        ->groupBy("new_date")
+                                                        ->groupBy("date_sensib")
                                                         ->get();
             //dd($data);
             $reasons->addStringColumn('Mois')
-                ->addNumberColumn('Personnes Sensibilisées')
-                ->addNumberColumn('Menages Sensibilisés');
+                    ->addNumberColumn('Personnes Sensibilisées')
+                    ->addNumberColumn('Menages Sensibilisés');
 
             foreach ($data as $key){
-                    $reasons -> addRow([$key->new_date, $key->Somme_personnes,$key->Somme_menages]);
+                    $reasons -> addRow([$key->new_date,$key->Somme_personnes,$key->Somme_menages]);
 
             }
 
@@ -332,11 +330,11 @@ class HomeController extends Controller
 
             $sens = Sensibilisation::All();
             return view('sensibilisation')->with('sens',$sens)
-                                                ->with('lava',$lava)
-                                                ->with('porte',$porte)
-                                                ->with('causerie',$causerie)
-                                                ->with('scolaire',$scolaire)
-                                                ->with('masse',$masse);
+                                          ->with('lava',$lava)
+                                          ->with('porte',$porte)
+                                          ->with('causerie',$causerie)
+                                          ->with('scolaire',$scolaire)
+                                          ->with('masse',$masse);
 
     }
     public function voiries()
