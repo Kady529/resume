@@ -109,7 +109,7 @@
         <div class="top_nav">
           <div class="nav_menu">
               <div class="nav toggle">
-                <a id="menu_toggle"><i class="glyphicon glyphicon-align-justify"></i></a>
+                <a id="menu_toggle"><i class="fas fa-bars"></i></a>
               </div>
               <nav class="nav navbar-nav">
               <ul class=" navbar-right">

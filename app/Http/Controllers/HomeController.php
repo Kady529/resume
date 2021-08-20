@@ -307,7 +307,7 @@ class HomeController extends Controller
                                                           DB::raw("to_char(date_sensib, 'Mon-YYYY') as new_date"))
                                                         ->groupBy("date_sensib")
                                                         ->get();
-            //dd($data);
+            dd($data);
             $reasons->addStringColumn('Mois')
                     ->addNumberColumn('Personnes Sensibilisées')
                     ->addNumberColumn('Menages Sensibilisés');

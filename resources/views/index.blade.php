@@ -119,16 +119,16 @@
                                     </div>
                                     <div class="inline-block">
                                         <div class="slider-container justify-content-center align-items-center" style="width: 800px">
-                                            <input type="text" id="slider" class="slider" />
+                                            <input type="text" id="slider" class="slider"/>
                                         </div>
                                         <div class="widget_summary ">
                                             <div class="w_left text-left">
                                                 <span>27 April 2018</span>
                                             </div>
-                                            <div class="w_center justify-content-center align-items-center">
+                                            <div class="w_center ">
                                                 <p class="text-center">{{ $nowdate }}</p>
                                                 <div class="progress " style="width: 800px">
-                                                    <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                                    <div class="progress-bar progress-bar-striped active justify-content-center align-items-center" role="progressbar"
                                                          aria-valuenow="{{ $ecoule['day'] }}" aria-valuemin="0" aria-valuemax="{{ $total }}" style="width:{{ $pourcentage }}%">
                                                         {{$pourcentage}} %
                                                     </div>

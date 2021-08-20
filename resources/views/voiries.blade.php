@@ -19,7 +19,7 @@
             <div class="col-md-2 col-sm-4">
                 <div class="card-box bg-blue">
                     <div class="inner">
-                        <p>Route ( KM )</p>
+                        <p>Route realisées ( KM )</p>
                         <h3> {{ ($beton + $pavage)* 0.001 }}</h3>
                     </div>
                     <div class="icon">
@@ -32,7 +32,7 @@
             <div class="col-md-2 col-sm-4">
                 <div class="card-box bg-green">
                     <div class="inner">
-                        <p> Drainage (ml) </p>
+                        <p> Drainage canivaux (ml) </p>
                         <h3> {{ $drainage}}  </h3>
                     </div>
                     <div class="icon">
