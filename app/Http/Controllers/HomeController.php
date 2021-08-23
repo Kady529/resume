@@ -302,10 +302,10 @@ class HomeController extends Controller
             //deuxiemme graphique
             $reasons = \Lava::DataTable();
 
-            $data =\DB::table("sensibilisations")->select(DB::raw("sum(personnes) as Somme_personnes"),
-                                                          DB::raw("sum(menage) as Somme_menages"),
+            $data =\DB::table("sensibilisations")->select(DB::raw("sum(personnes) as somme_personnes"),
+                                                          DB::raw("sum(menage) as somme_menages"),
                                                           DB::raw("to_char(date_sensib, 'Mon-YYYY') as new_date"))
-                                                        ->groupBy("date_sensib")
+                                                        ->groupBy("new_date")
                                                         ->get();
             dd($data);
             $reasons->addStringColumn('Mois')
@@ -313,7 +313,7 @@ class HomeController extends Controller
                     ->addNumberColumn('Menages Sensibilisés');
 
             foreach ($data as $key){
-                    $reasons -> addRow([$key->new_date,$key->Somme_personnes,$key->Somme_menages]);
+                    $reasons -> addRow([$key->new_date,$key->somme_personnes,$key->somme_menages]);
 
             }
 
